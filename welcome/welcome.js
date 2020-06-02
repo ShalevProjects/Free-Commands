@@ -1,12 +1,3 @@
-const {Client, MessageEmbed } = require('discord.js')
-const Discord = require("discord.js");
-const client = new Client()
- 
-const PREFIX = '!'
-
-
-//fivem system
-
 client.on('guildMemberAdd', mem => {  
     const channel = 'channel-id'
 
